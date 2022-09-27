@@ -222,7 +222,6 @@ export default function App() {
     setIsDarkTheme(!isDarkTheme);
   }
   const theme = useTheme();
-  const [searchText,setSearchText] = useState("");
   return (
     <View style={styles.container}>
       <MapView style={styles.map} 
